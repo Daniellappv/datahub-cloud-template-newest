@@ -41,7 +41,7 @@ Feel free to customize the data package frontmatter accordingly when publishing 
 
 ## Unstructured data
 
-You may want to start by listing your data files in a catalog-like component like this: 
+If your dataset is part of a larger dataset collection, you may want to start by listing the related datasets here in a catalog-like component with search and facets like this one: 
 
 <Catalog
   datasets={[
@@ -152,6 +152,19 @@ You may want to start by listing your data files in a catalog-like component lik
     'platform'
   ]}
 />
+
+This makes it easy to navigate and quickly find or filter down the data you're looking for. You can add as many facets as you'd like.
+
+Another way to give an overview would be to embed your source excel file as follows:
+
+<Excel url="https://storage.portaljs.org/IC-Gantt-Chart-Project-Template-8857.xlsx" />
+
+
+### Getting insights
+
+Furthermore, you can use a number of data preview and data visualization components in order to make your dataset more insightful.
+
+
 
 
 ## Data-rich components
