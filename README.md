@@ -21,17 +21,12 @@ datapackage:
 ## Overview
 
 ```mermaid
-  graph LR;
+  graph TD;
       Dataset-title-->Data-package-metadata
-      Dataset-title-->Data-Package-Frontmatter
       Data-package-metadata-->Short-description;
-      Data-package-metadata-->Data-Package-Frontmatter
       Short-description-->Data-files-list;
-      Short-description-->Data-Package-Frontmatter
       Data-files-list-->Data-Previews;
-      Data-files-list-->Data-Package-Frontmatter
-      Data-Previews-->Body-in-markdown
-      Data-Previews-->Data-Package-Frontmatter
+      Data-previews-->Dataset-title
 ```
 
 Everything above this section is part of the Data package front matter. Feel free to customize it when publishing your own data. 
