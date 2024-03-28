@@ -23,12 +23,12 @@ datapackage:
 ```mermaid
   graph TD;
       Dataset-title-->Data-package-metadata
-      Data-package-metadata-->Short-description;
-      Short-description-->Data-files-list;
-      Data-files-list-->Data-Previews;
       Dataset-title-->Data-Package-Frontmatter
+      Data-package-metadata-->Short-description;
       Data-package-metadata-->Data-Package-Frontmatter
+      Short-description-->Data-files-list;
       Short-description-->Data-Package-Frontmatter
+      Data-files-list-->Data-Previews;
       Data-files-list-->Data-Package-Frontmatter
       Data-Previews-->Data-Package-Frontmatter
 ```
