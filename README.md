@@ -22,10 +22,15 @@ datapackage:
 
 ```mermaid
   graph TD;
-      Your-dataset-title-->Data-package-metadata
-      Data-package-metadata-->Short-intro/description;
-      Short-intro/description-->Data-files-list;
+      Dataset-title-->Data-package-metadata
+      Data-package-metadata-->Short-description;
+      Short-description-->Data-files-list;
       Data-files-list-->Data-Previews;
+      Dataset-title-->Data-Package-Frontmatter
+      Data-package-metadata-->Data-Package-Frontmatter
+      Short-description-->Data-Package-Frontmatter
+      Data-files-list-->Data-Package-Frontmatter
+      Data-Previews-->Data-Package-Frontmatter
 ```
 
 Everything above this section is part of the Data package front matter. Feel free to customize it when publishing your own data. 
