@@ -49,7 +49,7 @@ You can quickly embed and highlight a piece of code as follows:
 
 ```
 const ExampleCode = () => {
-  return <div> .... </div>;
+`pre`  return <div> .... </div>;
 };
 ```
 
