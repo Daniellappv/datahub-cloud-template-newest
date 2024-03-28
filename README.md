@@ -24,7 +24,7 @@ Welcome to the body of your dataset site. Everything above this section is part 
 
 Here is a quick overview of this data-rich dataset template:
 
-![[3ff3370c-2b2e-45ac-9988-abdeac24ce1c.png]]
+![[Overview.png]]
 
 ## Structured data
 
