@@ -196,13 +196,13 @@ You can use a number of data preview and data visualization components in order 
 
 ### Data Table
 
-Let's start by adding a table like the one below:
+Let's start by adding a table of your data like the one below:
 
 <FlatUiTable url="https://storage.openspending.org/alberta-budget/__os_imported__alberta_total.csv" />
 
 ### Data visualization
 
-Now let's add a line chart:
+Now let's add line chart:
 
 <LineChart
   data="https://raw.githubusercontent.com/datasets/oil-prices/main/data/wti-year.csv"
@@ -270,6 +270,17 @@ There are also other types of charts and graphs you can use to enhance your data
   xAxis="year"
   yAxis="temperature"
 />
+
+There is also support for VegaLite charts 
+
+{
+  "data": {"url": "data/cars.json"},
+  "mark": "point",
+  "encoding": {
+    "x": {"field": "Horsepower", "type": "quantitative"},
+    "y": {"field": "Miles_per_Gallon", "type": "quantitative"}
+  }
+}
 
 
 For a full list and API of available data visualisation components visit https://storybook.portaljs.org
