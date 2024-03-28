@@ -20,27 +20,20 @@ datapackage:
 
 ## Overview
 
-```mermaid
-  graph TD;
-      Dataset-title-->Data-package-metadata
-      Data-package-metadata-->Short-description;
-      Short-description-->Data-files-list;
-      Data-files-list-->Data-Previews;
-      Data-Previews-->Dataset-title
-```
+Welcome to the body (= the README.md/index.md part) of your dataset site. Everything above this Overview section is part of the Data package front matter. Below is an overview of what's included in the data package frontmatter:
 
 ```mermaid
   graph TD;
-      Dataset-title-->Data-package-metadata
-      Dataset-title-->Short-description;
-      Dataset-title-->Data-files-list;
-      Dataset-title-->Data-Previews;
-      Data-Previews-->Dataset-title
+      Data-Package-Frontmatter-->Dataset-title
+      Data-Package-Frontmatter-->Data-package-metadata
+      Data-Package-Frontmatter-->Short-description;
+      Data-Package-Frontmatter-->Data-files-list;
+      Data-Package-Frontmatter-->Data-Previews;
 ```
 
-Everything above this section is part of the Data package front matter. Feel free to customize it when publishing your own data. 
+Feel free to customize it when publishing your own data. 
 
-In the following  sections, we are going to explore how you can enhance your dataset:
+Below the frontmatter 
 
 
 
