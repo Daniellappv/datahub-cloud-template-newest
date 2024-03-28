@@ -18,9 +18,15 @@ datapackage:
         type: number
 ---
 
-## Overview
+Welcome to the body of your dataset site. Everything above this section is part of the Data package front matter.
 
-Welcome to the body (= the README.md/index.md part) of your dataset site. Everything above this Overview section is part of the Data package front matter. Below is an overview of what's included in the data package frontmatter:
+# Overview
+
+Here is a quick overview of this data-rich dataset template:
+
+<img width="655" alt="Screenshot 2024-03-28 at 15 05 44" src="https://github.com/Daniellappv/datahub-cloud-template-newest/assets/45828069/3ff3370c-2b2e-45ac-9988-abdeac24ce1c">
+
+## Structured data
 
 ```mermaid
   graph TD;
@@ -31,11 +37,14 @@ Welcome to the body (= the README.md/index.md part) of your dataset site. Everyt
       Data-Package-Frontmatter-->Data-Previews;
 ```
 
-Feel free to customize it when publishing your own data. 
+Feel free to customize the data package frontmatter accordingly when publishing your own data. 
 
-Below the frontmatter 
+## Unstructured data
+
+Markdown syntax is supported 
 
 
+## Data-rich components
 
 We can add a chart:
 
