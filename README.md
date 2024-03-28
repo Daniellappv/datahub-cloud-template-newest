@@ -21,7 +21,7 @@ datapackage:
 ## Overview
 
 ```mermaid
-  graph TD;
+  graph LR;
       Dataset-title-->Data-package-metadata
       Dataset-title-->Data-Package-Frontmatter
       Data-package-metadata-->Short-description;
