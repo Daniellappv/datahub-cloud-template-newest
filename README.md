@@ -171,7 +171,12 @@ Furthermore, you can use a number of data preview and data visualization compone
 
 Let's start by adding a simple table like the one below:
 
-<Table url="https://raw.githubusercontent.com/datasets/finance-vix/main/data/vix-daily.csv" />
+<Table
+  datastoreConfig={{
+    dataMapperFn: function zo(){},
+    dataStoreURI: 'https://www.civicdata.com/api/action/datastore_search?resource_id=46ec0807-31ff-497f-bfa0-f31c796cdee8'
+  }}
+ />
 
 > You can also insert a table from a raw csv file or by passing columns and data or you can insert a table with datastore integration. For further instructions, see https://storybook.portaljs.org/?path=/docs/components-table--docs
 
