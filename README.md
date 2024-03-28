@@ -1,9 +1,7 @@
-What happens if I add some text here?
-
 ---
 datapackage:
-  title: Dataset Template
-  description: A template for a dataset to publish on DataHub. Uses the Data Package metadata.
+  title: Template dataset site
+  description: This is a template for publishing your data with Datahub Cloud. You can see above the Data Package metadata.
   licenses:
   - path: http://opendatacommons.org/licenses/pddl/
     title: Open Data Commons Public Domain Dedication and License v1.0
@@ -20,6 +18,7 @@ datapackage:
         type: number
 ---
 
+## Data insights 
 Here's some text.
 
 You can add as much text as you like.
