@@ -171,72 +171,9 @@ Furthermore, you can use a number of data preview and data visualization compone
 
 Let's start by adding a simple table like the one below:
 
-<Table
-  cols={[
-    {
-      key: 'id',
-      name: 'ID'
-    },
-    {
-      key: 'firstName',
-      name: 'First name'
-    },
-    {
-      key: 'lastName',
-      name: 'Last name'
-    },
-    {
-      key: 'age',
-      name: 'Age'
-    }
-  ]}
-  data={[
-    {
-      age: 35,
-      firstName: 'Jon',
-      id: 1,
-      lastName: 'Snow'
-    },
-    {
-      age: 42,
-      firstName: 'Cersei',
-      id: 2,
-      lastName: 'Lannister'
-    },
-    {
-      age: 45,
-      firstName: 'Jaime',
-      id: 3,
-      lastName: 'Lannister'
-    },
-    {
-      age: 16,
-      firstName: 'Arya',
-      id: 4,
-      lastName: 'Stark'
-    },
-    {
-      age: 44,
-      firstName: 'Ferrara',
-      id: 7,
-      lastName: 'Clifford'
-    },
-    {
-      age: 36,
-      firstName: 'Rossini',
-      id: 8,
-      lastName: 'Frances'
-    },
-    {
-      age: 65,
-      firstName: 'Harvey',
-      id: 9,
-      lastName: 'Roxie'
-    }
-  ]}
-/>
+<Table url="https://raw.githubusercontent.com/datasets/finance-vix/main/data/vix-daily.csv" />
 
-> You can also insert a table from a raw csv file or from a URL as well as a table with datastore integration. For further instructions, see https://storybook.portaljs.org/?path=/docs/components-table--docs
+> You can also insert a table from a raw csv file or by passing columns and data or you can insert a table with datastore integration. For further instructions, see https://storybook.portaljs.org/?path=/docs/components-table--docs
 
 If you want to make it even more interactive and allow for filtering, you can use the following table component:
 
