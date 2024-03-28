@@ -26,7 +26,7 @@ datapackage:
       Data-package-metadata-->Short-description;
       Short-description-->Data-files-list;
       Data-files-list-->Data-Previews;
-      Data-previews-->Dataset-title
+      Data-Previews-->Dataset-title
 ```
 
 Everything above this section is part of the Data package front matter. Feel free to customize it when publishing your own data. 
