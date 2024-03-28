@@ -192,7 +192,7 @@ Simply upload your Excel file to your Github repository and replace the URL with
 
 ## Data-rich components
 
-Furthermore, you can use a number of data preview and data visualization components in order to make your dataset more insightful. For a full list and API of available data visualisation components visit https://storybook.portaljs.org
+You can use a number of data preview and data visualization components in order to make your dataset more insightful. 
 
 ### Data Table
 
@@ -202,14 +202,7 @@ Let's start by adding a table like the one below:
 
 ### Data visualization
 
-We can add charts:
-
-<LineChart
-  data="./data.csv"
-  title="C02 per decade"
-  xAxis="year"
-  yAxis="co2"
-/>
+Now let's add a line chart:
 
 <LineChart
   data="https://raw.githubusercontent.com/datasets/oil-prices/main/data/wti-year.csv"
@@ -217,6 +210,10 @@ We can add charts:
   xAxis="Date"
   yAxis="Price"
 />
+
+There are also other types of charts and graphs you can use to enhance your dataset. You can create charts with Plotly, see how it renders: 
+
+> [!info] This is a Plotly Bar Chart:
 
 <PlotlyBarChart
   data={[
@@ -245,6 +242,8 @@ We can add charts:
   yAxis="temperature"
 />
 
+> [!info] This is a Plotly Line Chart:
+
 <PlotlyLineChart
   data={[
     {
@@ -272,33 +271,5 @@ We can add charts:
   yAxis="temperature"
 />
 
-<Plotly
-  data={[
-    {
-      marker: {
-        color: 'red'
-      },
-      mode: 'lines+markers',
-      type: 'scatter',
-      x: [
-        1,
-        2,
-        3
-      ],
-      y: [
-        2,
-        6,
-        3
-      ]
-    }
-  ]}
-  layout={{
-    title: 'Chart built with Plotly',
-    xaxis: {
-      title: 'x Axis'
-    },
-    yaxis: {
-      title: 'y Axis'
-    }
-  }}
-/>
+
+For a full list and API of available data visualisation components visit https://storybook.portaljs.org
