@@ -46,6 +46,8 @@ You can add as many markdown files to your GitHub repository as you like, and yo
 > Note: For a full list of supported markdown features visit https://flowershow.app/docs/syntax
 
 ---
+---
+---
 
 If your dataset is part of a larger dataset collection, you may want to start by listing the related datasets here in a catalog-like component with search and facets like this one: 
 
@@ -161,6 +163,8 @@ If your dataset is part of a larger dataset collection, you may want to start by
 
 This makes it easy to navigate and quickly find or filter down the data you're looking for. You can add as many facets as you'd like.
 
+---
+---
 ---
 
 If you're working a lot with Excel files, you can embed a preview of your file such as this one:
