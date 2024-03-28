@@ -1,7 +1,7 @@
 ---
 datapackage:
   title: Template dataset site
-  description: This is a template for publishing your data with Datahub Cloud. You can see above the Data Package metadata.
+  description: This is a template for publishing your data with Datahub Cloud.
   licenses:
   - path: http://opendatacommons.org/licenses/pddl/
     title: Open Data Commons Public Domain Dedication and License v1.0
@@ -18,12 +18,21 @@ datapackage:
         type: number
 ---
 
-## Data insights 
-Here's some text.
+## Overview
 
-You can add as much text as you like.
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
 
-The data files will be automatically displayed here.
+Everything above this section is part of the Data package front matter. Feel free to customize it when publishing your own data. 
+
+In the following  sections, we are going to explore how you can enhance your dataset:
+
+
 
 We can add a chart:
 
