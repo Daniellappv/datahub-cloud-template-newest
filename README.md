@@ -226,15 +226,6 @@ In case you're dealing with geo data, you can visualize your data on a GeoJSON p
   zoom={2}
 />
 
-Or on an OpenLayers Map:
-
-[
-  {
-    "url": "https://openlayers.org/data/vector/ecoregions.json",
-    "name": "Ecoregions"
-  }
-]
-
 ### Data Table
 
 Let's start by adding a table of your data like the one below:
