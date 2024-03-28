@@ -22,7 +22,7 @@ Welcome to the body of your dataset site. Everything above this section is part 
 
 # Overview
 
-Here is a quick overview of this data-rich dataset template:
+Here is a quick overview of the template structure:
 
 ![[Overview.png]]
 
@@ -40,6 +40,10 @@ Here is a quick overview of this data-rich dataset template:
 Feel free to customize the data package frontmatter accordingly when publishing your own data. 
 
 ## Unstructured data
+
+You can add as many markdown files to your GitHub repository as you like, and you can freely nest them in subdirectories. You can also enhance your content with other data visualisation components and markdown features.
+
+> Note: For a full list of supported markdown features visit https://flowershow.app/docs/syntax
 
 If your dataset is part of a larger dataset collection, you may want to start by listing the related datasets here in a catalog-like component with search and facets like this one: 
 
@@ -163,18 +167,17 @@ Simply upload your Excel file to your Github repository and replace the URL with
 
 > Note: This component allows you to present all tabs in your Excel file. You can sort the rows by clicking on the Column name and you can also filter each column by clicking on the triple bar symbol next to the Column name.
 
-### Getting insights
+## Data-rich components
 
-Furthermore, you can use a number of data preview and data visualization components in order to make your dataset more insightful
+Furthermore, you can use a number of data preview and data visualization components in order to make your dataset more insightful. For a full list and API of available data visualisation components visit https://storybook.portaljs.org
 
-## Data Table
+### Data Table
 
 Let's start by adding a table like the one below:
 
 <FlatUiTable url="https://storage.openspending.org/alberta-budget/__os_imported__alberta_total.csv" />
 
-
-## Data-rich components
+### Data visualization 
 
 We can add a chart:
 
