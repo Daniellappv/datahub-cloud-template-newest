@@ -194,6 +194,47 @@ Simply upload your Excel file to your Github repository and replace the URL with
 
 You can use a number of data preview and data visualization components in order to make your dataset more insightful. 
 
+### Map
+
+In case you're dealing with geo data, you can visualize your data on a GeoJSON polygons and points map with auto zoom in the points layer:
+
+<Map
+  autoZoomConfiguration={{
+    layerName: 'Points'
+  }}
+  center={{
+    latitude: 45,
+    longitude: 0
+  }}
+  layers={[
+    {
+      data: 'https://opendata.arcgis.com/datasets/9c58741995174fbcb017cf46c8a42f4b_25.geojson',
+      name: 'Points',
+      tooltip: true
+    },
+    {
+      colorScale: {
+        ending: '#00ff00',
+        starting: '#ff0000'
+      },
+      data: 'https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_geography_marine_polys.geojson',
+      name: 'Polygons',
+      tooltip: true
+    }
+  ]}
+  title="Polygons and points"
+  zoom={2}
+/>
+
+Or on an OpenLayers Map:
+
+[
+  {
+    "url": "https://openlayers.org/data/vector/ecoregions.json",
+    "name": "Ecoregions"
+  }
+]
+
 ### Data Table
 
 Let's start by adding a table of your data like the one below:
@@ -271,7 +312,7 @@ There are also other types of charts and graphs you can use to enhance your data
   yAxis="temperature"
 />
 
-There is also support for VegaLite charts 
+> [!info] You can also integrate VegaLite charts:
 
 <VegaLite
   data={{
