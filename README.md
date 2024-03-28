@@ -21,11 +21,20 @@ datapackage:
 ## Overview
 
 ```mermaid
-  graph LR;
+  graph TD;
       Dataset-title-->Data-package-metadata
       Data-package-metadata-->Short-description;
       Short-description-->Data-files-list;
       Data-files-list-->Data-Previews;
+      Data-Previews-->Dataset-title
+```
+
+```mermaid
+  graph TD;
+      Dataset-title-->Data-package-metadata
+      Dataset-title-->Short-description;
+      Dataset-title-->Data-files-list;
+      Dataset-title-->Data-Previews;
       Data-Previews-->Dataset-title
 ```
 
