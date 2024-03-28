@@ -30,6 +30,7 @@ datapackage:
       Short-description-->Data-Package-Frontmatter
       Data-files-list-->Data-Previews;
       Data-files-list-->Data-Package-Frontmatter
+      Data-Previews-->Body-in-markdown
       Data-Previews-->Data-Package-Frontmatter
 ```
 
