@@ -200,13 +200,105 @@ Let's start by adding a table like the one below:
 
 <FlatUiTable url="https://storage.openspending.org/alberta-budget/__os_imported__alberta_total.csv" />
 
-### Data visualization 
+### Data visualization
 
-We can add a chart:
+We can add charts:
 
 <LineChart
   data="./data.csv"
   title="C02 per decade"
   xAxis="year"
   yAxis="co2"
+/>
+
+<LineChart
+  data="https://raw.githubusercontent.com/datasets/oil-prices/main/data/wti-year.csv"
+  title="Oil Price x Year"
+  xAxis="Date"
+  yAxis="Price"
+/>
+
+<PlotlyBarChart
+  data={[
+    {
+      temperature: -0.41765878,
+      year: '1850'
+    },
+    {
+      temperature: -0.2333498,
+      year: '1851'
+    },
+    {
+      temperature: -0.22939907,
+      year: '1852'
+    },
+    {
+      temperature: -0.27035445,
+      year: '1853'
+    },
+    {
+      temperature: -0.29163003,
+      year: '1854'
+    }
+  ]}
+  xAxis="year"
+  yAxis="temperature"
+/>
+
+<PlotlyLineChart
+  data={[
+    {
+      temperature: -0.41765878,
+      year: '1850'
+    },
+    {
+      temperature: -0.2333498,
+      year: '1851'
+    },
+    {
+      temperature: -0.22939907,
+      year: '1852'
+    },
+    {
+      temperature: -0.27035445,
+      year: '1853'
+    },
+    {
+      temperature: -0.29163003,
+      year: '1854'
+    }
+  ]}
+  xAxis="year"
+  yAxis="temperature"
+/>
+
+<Plotly
+  data={[
+    {
+      marker: {
+        color: 'red'
+      },
+      mode: 'lines+markers',
+      type: 'scatter',
+      x: [
+        1,
+        2,
+        3
+      ],
+      y: [
+        2,
+        6,
+        3
+      ]
+    }
+  ]}
+  layout={{
+    title: 'Chart built with Plotly',
+    xaxis: {
+      title: 'x Axis'
+    },
+    yaxis: {
+      title: 'y Axis'
+    }
+  }}
 />
