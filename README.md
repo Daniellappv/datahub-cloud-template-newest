@@ -45,7 +45,13 @@ You can add as many markdown files to your GitHub repository as you like, and yo
 
 > Note: For a full list of supported markdown features visit https://flowershow.app/docs/syntax
 
-You can quickly embed a piece of code as follows:
+Here are some quick examples:
+
+> [!info] This is cool!
+> Here's a callout block.
+> It supports **markdown** and [[Internal link|wikilinks]].
+
+Or you can quickly embed a piece of code as follows:
 
 ```
 const ExampleCode = () => {
@@ -53,7 +59,8 @@ const ExampleCode = () => {
 };
 ```
 
-Or simply pass an inline code like this: Here is some code: `print("hello world!")`
+Or simply pass an inline code like this: `print("hello world!")`
+
 
 ---
 
@@ -172,6 +179,8 @@ If your dataset is part of a larger dataset collection, you may want to start by
 This makes it easy to navigate and quickly find or filter down the data you're looking for. You can add as many facets as you'd like.
 
 ---
+
+`==Excel==`
 
 If you're working a lot with Excel files, you can embed a preview of your file such as this one:
 
