@@ -286,11 +286,11 @@ There is also support for VegaLite charts
       }
       {
         x: 2021,
-        y: 2
+        y: 0.2
       }
       {
         x: 2024,
-        y: 1.4
+        y: 0.4
       }
     ]
   }}
