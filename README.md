@@ -45,13 +45,15 @@ You can add as many markdown files to your GitHub repository as you like, and yo
 
 > Note: For a full list of supported markdown features visit https://flowershow.app/docs/syntax
 
-You can quickly embed and highlight a piece of code as follows:
+You can quickly embed a piece of code as follows:
 
 ```
 const ExampleCode = () => {
-`pre`  return <div> .... </div>;
+  return <div> .... </div>;
 };
 ```
+
+Or simply pass an inline code like this: Here is some code: `print("hello world!")`
 
 ---
 
