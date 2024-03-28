@@ -22,10 +22,10 @@ datapackage:
 
 ```mermaid
   graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
+      Your dataset title-->Data package metadata
+      Data package metadata-->Short intro/descrption;
+      Short intro/description-->Data files list;
+      Data files list-->Data Previews;
 ```
 
 Everything above this section is part of the Data package front matter. Feel free to customize it when publishing your own data. 
