@@ -273,14 +273,45 @@ There are also other types of charts and graphs you can use to enhance your data
 
 There is also support for VegaLite charts 
 
-{
-  "data": {"url": "data/cars.json"},
-  "mark": "point",
-  "encoding": {
-    "x": {"field": "Horsepower", "type": "quantitative"},
-    "y": {"field": "Miles_per_Gallon", "type": "quantitative"}
-  }
-}
+<VegaLite
+  data={{
+    table: [
+      {
+        x: 1850,
+        y: -0.418
+      },
+      {
+        x: 2020,
+        y: 0.923
+      }
+      {
+        x: 2021,
+        y: 2
+      }
+      {
+        x: 2024,
+        y: 1.4
+      }
+    ]
+  }}
+  spec={{
+    $schema: 'https://vega.github.io/schema/vega-lite/v4.json',
+    data: {
+      name: 'table'
+    },
+    encoding: {
+      x: {
+        field: 'x',
+        type: 'ordinal'
+      },
+      y: {
+        field: 'y',
+        type: 'quantitative'
+      }
+    },
+    mark: 'bar'
+  }}
+/>
 
 
 For a full list and API of available data visualisation components visit https://storybook.portaljs.org
