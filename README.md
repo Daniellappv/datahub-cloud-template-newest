@@ -155,16 +155,92 @@ If your dataset is part of a larger dataset collection, you may want to start by
 
 This makes it easy to navigate and quickly find or filter down the data you're looking for. You can add as many facets as you'd like.
 
-Another way to give an overview would be to embed your source excel file as follows:
+If you're working a lot with Excel files, you can embed a preview of your file such as this one:
 
 <Excel url="https://storage.portaljs.org/IC-Gantt-Chart-Project-Template-8857.xlsx" />
 
+Simply replace the URL with the one of your Excel file.
+
+> Note: This component allows you to present all tabs in your Excel file. You can sort the rows by clicking on the Column name and you can also filter each column by clicking on the triple bar symbol next to the Column name.
 
 ### Getting insights
 
-Furthermore, you can use a number of data preview and data visualization components in order to make your dataset more insightful.
+Furthermore, you can use a number of data preview and data visualization components in order to make your dataset more insightful
 
+## Data Table
 
+Let's start by adding a simple table like the one below:
+
+<Table
+  cols={[
+    {
+      key: 'id',
+      name: 'ID'
+    },
+    {
+      key: 'firstName',
+      name: 'First name'
+    },
+    {
+      key: 'lastName',
+      name: 'Last name'
+    },
+    {
+      key: 'age',
+      name: 'Age'
+    }
+  ]}
+  data={[
+    {
+      age: 35,
+      firstName: 'Jon',
+      id: 1,
+      lastName: 'Snow'
+    },
+    {
+      age: 42,
+      firstName: 'Cersei',
+      id: 2,
+      lastName: 'Lannister'
+    },
+    {
+      age: 45,
+      firstName: 'Jaime',
+      id: 3,
+      lastName: 'Lannister'
+    },
+    {
+      age: 16,
+      firstName: 'Arya',
+      id: 4,
+      lastName: 'Stark'
+    },
+    {
+      age: 44,
+      firstName: 'Ferrara',
+      id: 7,
+      lastName: 'Clifford'
+    },
+    {
+      age: 36,
+      firstName: 'Rossini',
+      id: 8,
+      lastName: 'Frances'
+    },
+    {
+      age: 65,
+      firstName: 'Harvey',
+      id: 9,
+      lastName: 'Roxie'
+    }
+  ]}
+/>
+
+> You can also insert a table from a raw csv file or from a URL as well as a table with datastore integration. For further instructions, see https://storybook.portaljs.org/?path=/docs/components-table--docs
+
+If you want to make it even more interactive and allow for filtering, you can use the following table component:
+
+<FlatUiTable url="https://storage.openspending.org/alberta-budget/__os_imported__alberta_total.csv" />
 
 
 ## Data-rich components
