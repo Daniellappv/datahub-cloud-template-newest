@@ -284,14 +284,6 @@ There is also support for VegaLite charts
         x: 2020,
         y: 0.923
       }
-      {
-        x: 2021,
-        y: 0.2
-      }
-      {
-        x: 2024,
-        y: 0.4
-      }
     ]
   }}
   spec={{
