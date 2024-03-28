@@ -159,7 +159,7 @@ If you're working a lot with Excel files, you can embed a preview of your file s
 
 <Excel url="https://storage.portaljs.org/IC-Gantt-Chart-Project-Template-8857.xlsx" />
 
-Simply replace the URL with the one of your Excel file.
+Simply upload your Excel file to your Github repository and replace the URL with the relative path of the uploaded file.
 
 > Note: This component allows you to present all tabs in your Excel file. You can sort the rows by clicking on the Column name and you can also filter each column by clicking on the triple bar symbol next to the Column name.
 
@@ -169,18 +169,7 @@ Furthermore, you can use a number of data preview and data visualization compone
 
 ## Data Table
 
-Let's start by adding a simple table like the one below:
-
-<Table
-  datastoreConfig={{
-    dataMapperFn: function zo(){},
-    dataStoreURI: 'https://www.civicdata.com/api/action/datastore_search?resource_id=46ec0807-31ff-497f-bfa0-f31c796cdee8'
-  }}
- />
-
-> You can also insert a table from a raw csv file or by passing columns and data or you can insert a table with datastore integration. For further instructions, see https://storybook.portaljs.org/?path=/docs/components-table--docs
-
-If you want to make it even more interactive and allow for filtering, you can use the following table component:
+Let's start by adding a table like the one below:
 
 <FlatUiTable url="https://storage.openspending.org/alberta-budget/__os_imported__alberta_total.csv" />
 
