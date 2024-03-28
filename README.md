@@ -24,7 +24,7 @@ Welcome to the body of your dataset site. Everything above this section is part 
 
 Here is a quick overview of this data-rich dataset template:
 
-<img width="655" alt="Screenshot 2024-03-28 at 15 05 44" src="https://github.com/Daniellappv/datahub-cloud-template-newest/assets/45828069/3ff3370c-2b2e-45ac-9988-abdeac24ce1c">
+[[3ff3370c-2b2e-45ac-9988-abdeac24ce1c]]
 
 ## Structured data
 
