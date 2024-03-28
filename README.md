@@ -1,7 +1,7 @@
 ---
 datapackage:
-  title: Template dataset site
-  description: This is a template for publishing your data with Datahub Cloud.
+  title: Welcome to your template dataset page!
+  description: This is a template for publishing your dataset with Datahub Cloud. Click on "Read more" to go to a quick overview of the template.  
   licenses:
   - path: http://opendatacommons.org/licenses/pddl/
     title: Open Data Commons Public Domain Dedication and License v1.0
