@@ -50,7 +50,7 @@ You may want to start by listing your data files in a catalog-like component lik
       file_path: 'content/dataset-4/index.md',
       metadata: {
         'details-of-task': 'Detect and categorise abusive language in social media data',
-        language: 'Albanian',
+        collection: 'Climate data',
         'level-of-annotation': [
           'Posts'
         ],
@@ -67,7 +67,7 @@ You may want to start by listing your data files in a catalog-like component lik
         reference: 'Nurce, E., Keci, J., Derczynski, L., 2021. Detecting Abusive Albanian. arXiv:2107.13592',
         'size-of-dataset': 11874,
         'task-description': 'Hierarchical (offensive/not; untargeted/targeted; person/group/other)',
-        title: 'Detecting Abusive Albanian'
+        title: 'Climate Change'
       },
       url_path: 'dataset-4'
     },
@@ -76,7 +76,7 @@ You may want to start by listing your data files in a catalog-like component lik
       file_path: 'content/dataset-1/index.md',
       metadata: {
         'details-of-task': 'Enriched versions of the OffensEval/OLID dataset with the distinction of explicit/implicit offensive messages and the new dimension for abusive messages. Labels for offensive language: EXPLICIT, IMPLICT, NOT; Labels for abusive language: EXPLICIT, IMPLICT, NOTABU',
-        language: 'English',
+        collection: 'Economy',
         'level-of-annotation': [
           'Tweets'
         ],
@@ -92,7 +92,7 @@ You may want to start by listing your data files in a catalog-like component lik
         reference: 'Caselli, T., Basile, V., Jelena, M., Inga, K., and Michael, G. 2020. "I feel offended, don’t be abusive! implicit/explicit messages in offensive and abusive language". The 12th Language Resources and Evaluation Conference (pp. 6193-6202). European Language Resources Association.',
         'size-of-dataset': 14100,
         'task-description': 'Explicitness annotation of offensive and abusive content',
-        title: 'AbuseEval v1.0'
+        title: 'Economic Data and Indicators'
       },
       url_path: 'dataset-1'
     },
@@ -101,7 +101,7 @@ You may want to start by listing your data files in a catalog-like component lik
       file_path: 'content/dataset-2/index.md',
       metadata: {
         'details-of-task': 'Incivility',
-        language: 'Arabic',
+        collection: 'Stock Market',
         'level-of-annotation': [
           'Posts'
         ],
@@ -117,7 +117,7 @@ You may want to start by listing your data files in a catalog-like component lik
         reference: 'Mubarak, H., Darwish, K. and Magdy, W., 2017. Abusive Language Detection on Arabic Social Media. In: Proceedings of the First Workshop on Abusive Language Online. Vancouver, Canada: Association for Computational Linguistics, pp.52-56.',
         'size-of-dataset': 32000,
         'task-description': 'Ternary (Obscene, Offensive but not obscene, Clean)',
-        title: 'Abusive Language Detection on Arabic Social Media (Al Jazeera)'
+        title: 'Stock Market Data'
       },
       url_path: 'dataset-2'
     },
@@ -126,7 +126,7 @@ You may want to start by listing your data files in a catalog-like component lik
       file_path: 'content/dataset-3/index.md',
       metadata: {
         'details-of-task': 'Detectioning CDC from abusive comments',
-        language: 'Croatian',
+        collection: 'Climate data',
         'level-of-annotation': [
           'Posts'
         ],
@@ -142,13 +142,13 @@ You may want to start by listing your data files in a catalog-like component lik
         reference: 'Ravi Shekhar, Mladen Karan and Matthew Purver (2022). CoRAL: a Context-aware Croatian Abusive Language Dataset. Findings of the ACL: AACL-IJCNLP.',
         'size-of-dataset': 2240,
         'task-description': 'Multi-class based on context dependency categories (CDC)',
-        title: 'CoRAL: a Context-aware Croatian Abusive Language Dataset'
+        title: 'Air pollution data'
       },
       url_path: 'dataset-3'
     }
   ]}
   facets={[
-    'language',
+    'collection',
     'platform'
   ]}
 />
